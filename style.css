@@ -1,0 +1,51 @@
+header{
+	background: url("images/stripes.png")top;
+	height:10px;
+	width: 100%;
+
+	position: absolute;
+	top:0px;
+	
+	
+}
+
+	body{
+	text-align: left;
+	background: url("images/background.jpg") no-repeat top center;
+	background-size: cover;
+	background-color: #525A69;
+	font-size: 22px;
+	color: white;
+	font-family: helvetica;
+	margin:0px;
+
+
+}
+
+main {
+	margin-top:280px;
+	margin-left:40px;
+	height:50px;
+}
+
+
+.redline {
+	width:50px;
+	height:2px;
+	background: #FD6E6E;
+	display: block;
+}
+
+@media (max-width:500px) {
+
+	body {
+		font-size:48px;
+	}
+
+	.redline {
+		width:200px;
+	}
+
+}
+
+
